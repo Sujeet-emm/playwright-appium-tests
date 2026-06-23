@@ -1,0 +1,24 @@
+{
+  "name": "playwright-with-appium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:web": "playwright test tests/web/",
+    "test:mobile": "playwright test tests/mobile/",
+    "test:e2e": "playwright test tests/e2e/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "@wdio/types": "^8.39.0",
+    "dotenv": "^16.6.1",
+    "typescript": "^6.0.3",
+    "webdriverio": "^8.39.0"
+  }
+}
